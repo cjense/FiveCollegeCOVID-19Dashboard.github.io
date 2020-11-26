@@ -1,1 +1,1 @@
-# FiveCollegeCOVID-19dashboard.io
+# FiveCollegeCOVID-19Dashboard.github.io
