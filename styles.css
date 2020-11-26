@@ -1,3 +1,50 @@
+root {
+    --amherstpurple: #5D3C85;
+    --holyokeblue: #004976;
+    --smithblue: #132C5A;
+    --umassred: #881C1C;
+}
+
 h3{
-    color: white;
+}
+
+.content-header {
+    
+}
+
+.float-container {
+    padding: 10px;
+}
+
+.float-child {
+    width: 20%;
+}
+
+#amherst {
+    background: var(--amherstpurple);
+}
+
+#hampshire {
+    flex-grow: 1;
+    background: black;
+}
+
+#mount-holyoke {
+    flex-grow: 1;
+    background: var(--holyokeblue);
+}
+
+#smith {
+    flex-grow: 1;
+    background: var(--smithblue);
+}
+
+#umass-amherst {
+    flex-grow: 1;
+    background: var(--umassred);
+}
+
+#separator {
+    background: orange;
+    height: 100px;
 }
