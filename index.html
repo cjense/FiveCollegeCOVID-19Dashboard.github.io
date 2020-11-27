@@ -9,19 +9,19 @@
     </head>
         <body>
             <div id="header">
-
+                
             </div>
                 <div class="content-header">
                     <h1>Five College COVID-19 Dashboard</h1>
                 </div>
 
                 <!-- Tracking at a Glance -->
-                <div class="float-container" style="display: flex; height: 200px;">
-                    <div class="float-child" style="width: 20%;">
+                <div class="float-container">
+                    <div class="float-child amherst">
                         <h3>Amherst</h3>
                     </div>
 
-                    <div class="float-child amherst">
+                    <div class="float-child hampshire">
                         <h3>Hampshire</h3>
                     </div>
 
@@ -43,26 +43,54 @@
                 </div>
 
                 <!-- Dashboard -->
-                <div id="dashboard" style="display: flex; height: 300px;">
-                    <div class="amherst" style="width: 50%;">
-                        <h3>Amherst</h3>
-                    </div>
-                    <div class="hampshire">
-                        <h3>Hampshire</h3>
+                <!-- Amherst and Hampshire -->
+                    <div id="dashboard-1" class="float-container">
+                        <div class="amherst float-child2">
+                            <h3>Amherst</h3>
+                           <iframe frameborder="0" marginheight="0" marginwidth="0" 
+                            title="Data Visualization" allowtransparency="true" 
+                            allowfullscreen="true" class="tableauViz" 
+                            style="display: block; width: 50%; height: 500px; margin: 0px; padding: 0px; border: none;" 
+                            src="https://public.tableau.com/views/AmherstCollegeCOVID-19DashboardDRAFT2_16039773470900/AmherstCollegeCOVID-19Dashboard?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=no&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;publish=yes&amp;:loadOrderID=0"></iframe>
+                        </div>
+
+                        <div class="spacer"></div>
+
+                        <div class="hampshire float-child2">
+                            <h3>Hampshire</h3>
+                        </div>
                     </div>
 
-                    <div class="mount-holyoke">
-                        <h3>Mount Holyoke</h3>
+                    <div class="separator2"></div>
+
+                    <!-- Mount Holyoke and Smith -->
+                    <div id="dashboard-2" class="float-container">
+                        <div class="mount-holyoke float-child2">
+                            <h3>Mount Holyoke</h3>
+                        </div>
+
+                        <div class="spacer"></div>
+
+                        <div class="smith float-child2">
+                            <h3>Smith</h3>
+                        </div>
                     </div>
 
-                    <div class="smith">
-                        <h3>Smith</h3>
-                    </div>
+                    <div class="separator2"></div>
 
-                    <div class="umass-amherst">
-                        <h3>UMass Amherst</h3>
+                    <!-- UMass Amherst -->
+                    <div id="dashboard-3" class="float-container">
+
+                        <div class="spacer2"></div>
+
+                        <div class="umass-amherst float-child2">
+                            <h3>UMass Amherst</h3>
+                        </div>
+
+                        <div class="spacer2"></div>
+
                     </div>
-                </div>
+            <!-- Footer -->
             <div id="footer">
 
             </div>

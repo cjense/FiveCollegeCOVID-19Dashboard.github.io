@@ -1,4 +1,4 @@
-root {
+:root {
     --amherstpurple: #5D3C85;
     --holyokeblue: #004976;
     --smithblue: #132C5A;
@@ -6,6 +6,7 @@ root {
 }
 
 h3{
+    color: white;
 }
 
 .content-header {
@@ -13,38 +14,76 @@ h3{
 }
 
 .float-container {
-    padding: 10px;
+    padding: 15px;
+    display: flex;
+    height: 200px;
 }
 
 .float-child {
     width: 20%;
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
 }
 
-#amherst {
-    background: var(--amherstpurple);
+.float-child2 {
+    width: 50%;
+    float: left;
+    display: block;
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid blue;
 }
 
-#hampshire {
+.spacer {
+    width: 30px;
+    background-color: white;
+    height: 200px;
+}
+
+.spacer2 {
+    width: 25%;
+    height: 200px;
+}
+
+.amherst {
     flex-grow: 1;
-    background: black;
+    background-color: var(--amherstpurple);
 }
 
-#mount-holyoke {
+.hampshire {
     flex-grow: 1;
-    background: var(--holyokeblue);
+    background-color: black;
 }
 
-#smith {
+.mount-holyoke {
     flex-grow: 1;
-    background: var(--smithblue);
+    background-color: var(--holyokeblue);
 }
 
-#umass-amherst {
+.smith {
     flex-grow: 1;
-    background: var(--umassred);
+    background-color: var(--smithblue);
 }
 
-#separator {
+.umass-amherst {
+    flex-grow: 1;
+    background-color: var(--umassred);
+}
+
+.separator {
+    background: white;
+    height: 150px;
+}
+
+.sparator2 {
     background: orange;
-    height: 100px;
+    height: 30px;
+    width: 100%;
+}
+
+.dashboard-child {
+    width: 50%;
 }
